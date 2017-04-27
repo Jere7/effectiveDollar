@@ -1,0 +1,21 @@
+body  {
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    padding: 40px 40px 40px 40px;
+
+}
+
+div.container {
+
+}
+
+div.layouts {
+    display: block;
+    margin: 0 auto;
+    padding: 40px 40px 40px 40px;
+}
+img  {
+    float: right;
+    max-width: 100%;
+}
