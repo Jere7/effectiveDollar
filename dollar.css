@@ -20,7 +20,7 @@ body  {
     width: 969px;
     background: url("ipad-images/ipad.jpg") no-repeat center;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 100px auto;
     height: 850px;
 } 
 
@@ -35,17 +35,17 @@ body  {
 .nav-bar {
     width: 100%;
     float: left;
-    padding: 10px 0 10px 0;
+    padding: 0;
     
 }
 
 #left {    
     float: left;
-    width: 50%;
+    width: 30%;
 }
 
 #right {
     float: right;
-    width: 50%;
+    width: 40%;
 }
 
