@@ -114,35 +114,28 @@
     }
             /*input*/
     input {
-        text-align: left;
+        padding: 7px;
     }
 
     .input {
         float: right;
+        position: relative;
+        right: 220px;
+        bottom: 55px;
+
     }
 
     hr {
         margin: 10 auto;
-        width: 90%;
+        width: 100%;
     }
     
-
-    p {
-        float: right;
-    }
-
-    .min {
-        color: gray;
-        font-size: .3em;
-        display: inline;    
-    }
-
         /*content-right*/
 
     .content-right {
         float: right;
         width: 60%;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .one-right {
@@ -161,4 +154,14 @@
     .numbers {
         display: inline;
         padding: 5px;
+    }
+
+    p {
+        float: right;
+    }
+
+    .min {
+        color: gray;
+        font-size: .3em;
+        display: inline;    
     }
