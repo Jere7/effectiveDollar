@@ -30,29 +30,30 @@
 
     .image {
         width: 100%;
-        margin: 0 auto;
-        padding: 0px;     
+        margin: 0px auto;
+        padding: 25px;    
+        box-sizing: border-box; 
     }
 
     .nav-bar {
         width: 100%;
-        padding: 10px;
         color: gray;
         background-color: lightgray;
-        box-sizing: border-box;
+        margin: 4px auto;
     }
 
     i {
-        width: 100%;
+        padding: 0px;
+        margin: 0 auto;
     }
     #left {
-        padding-left: 10px;
+        padding-left: 70px;
         float: left;
-        width: 60%;
+        width: 45%;
     }
 
     #right {
+        margin: 0 auto;
         float: right;
-        width: 40%;
-        padding-right: 70px;
+        width: 45%;
     }
