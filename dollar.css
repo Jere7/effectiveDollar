@@ -9,8 +9,8 @@
 }
 
   .container {
-    padding: 130px 200px;
-    width: 60%; 
+    padding: 100px 100px;
+    width: 80%; 
     margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@
              /*nav-bar*/
 
     .nav-bar {
-        padding: 20px 0 0 0;
+        padding: 20px 0 20px 0;
         display: inline-flex;
         width: 100%;
         color: gray;
@@ -65,6 +65,12 @@
         width: 45%;
     }
 
+    input {
+        margin: 0 auto;
+        width: 50%;
+        padding-bottom: 1%;
+    }
+
             /*content-square*/
 
     .content-square {
@@ -81,6 +87,29 @@
         width: 30%;
     }
 
+    .one-left {
+        padding-bottom: 15%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    span {
+        font-size: 1.7em;
+    }
+
+    .green {
+        color: green;
+        padding-bottom: 10px;
+    }
+
+    .two-left {
+        padding-bottom: 15%;
+    }
+
+   
+
 hr {
     margin: 5px auto;
     width: 80%;
@@ -88,9 +117,12 @@ hr {
 
 .content-right {
         float: right;
+        text-align: left;
         width: 60%;
-    }
+ }
+
 .one-right {
-    text-align: center;
+    
 }
+
 
