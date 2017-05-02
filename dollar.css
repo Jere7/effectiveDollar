@@ -1,6 +1,58 @@
-body {
+  body {
     padding: 0;
     margin: 0 auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    width: 100%;
+    height: 500px;
     
 }
+
+  .container {
+    padding: 130px 200px;
+    width: 60%; 
+    margin: 0 auto;
+}
+
+  .content-layouts {
+      width: 100%;
+      margin: 0 auto;
+      border: 3px solid black;
+      -webkit-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
+      -moz-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
+      box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
+  }
+
+   .layouts {
+      width: 100%;
+      margin: 0 auto;  
+    }
+
+    .image {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;     
+    }
+
+    .nav-bar {
+        width: 100%;
+        padding: 10px;
+        color: gray;
+        background-color: lightgray;
+        box-sizing: border-box;
+    }
+
+    i {
+        width: 100%;
+    }
+    #left {
+        padding-left: 10px;
+        float: left;
+        width: 60%;
+    }
+
+    #right {
+        float: right;
+        width: 40%;
+        padding-right: 70px;
+    }
