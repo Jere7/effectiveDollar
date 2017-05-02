@@ -67,7 +67,7 @@
 
     input {
         margin: 0 auto;
-        width: 50%;
+        width: 10;
         padding-bottom: 1%;
     }
 
@@ -88,7 +88,7 @@
     }
 
     .one-left {
-        padding-bottom: 15%;
+        padding-bottom: 10%;
     }
 
     h2 {
@@ -97,6 +97,10 @@
 
     span {
         font-size: 1.7em;
+    }
+    .big {
+        font-size: 2.2em;
+
     }
 
     .green {
@@ -109,7 +113,7 @@
     }
 
     hr {
-        margin: 5px auto;
+        margin: 10 auto;
         width: 80%;
     }
 
@@ -120,11 +124,12 @@
     }
 
     .one-right {
-        text-align: center;
+         
     }
 
     .today {
         margin: 0 auto;
+    
     }
 
     .numbers {
