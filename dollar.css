@@ -9,15 +9,14 @@
     }
 
   .container {
-    padding: 100px 100px;
     width: 80%; 
     margin: 0 auto;
-    }
+   }
 
             /*Content-lyouts*/
 
   .content-layouts {
-      padding: 10px;
+      padding: 0;
       width: 100%;
       margin: 0 auto;
       border: 3px solid black;
@@ -34,18 +33,17 @@
     .image {
         width: 100%;
         margin: 0px auto;
-        padding: 0;    
-        box-sizing: border-box; 
+        padding: 0px;    
+
     }
              /*nav-bar*/
 
     .nav-bar {
         padding: 20px 0 20px 0;
-        display: inline-flex;
         width: 100%;
         color: gray;
         background-color: lightgray;
-        margin-bottom: 50px;
+        
     }
 
     i {
@@ -74,8 +72,8 @@
 
     .content-square {
         padding: 20px;
-        margin: 10px auto;
-        width: 90%;
+        margin: 0 auto;
+        width: 95%;
         height: 100%;
         display: inline-block;
         -webkit-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
@@ -102,8 +100,8 @@
     .two-left {
         width: 100%;
         padding-bottom: 15%;
-        
     }
+
     .tree-left {
         width: 100%;        
         padding-top: 33px;  
@@ -115,10 +113,13 @@
         font-size: 1.2em;
         margin-bottom: 60px;
     }
+            /*class today*/
     h6 {
+        padding: 10px;
         border: 1px solid lightgray;
         background-color: lightgrey;
     }
+
     span {
         font-size: 1.2em;
     }
@@ -147,8 +148,8 @@
         padding: 10px;
         float: right;
         height: 50%;
-        width: 60%;
-        margin-left: 10px;
+        width: 50%;
+        
         -webkit-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
         -moz-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
         box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
@@ -156,11 +157,27 @@
 
     .one-right {
         text-align: center;
-        width: 100%;
-        
-        
+        width: 100%;   
+    }
+    .two-right {
+        text-align: left;
+        width: 100%;   
     }
 
+     .tree-right {
+        text-align: left;
+        width: 100%;   
+    }
+
+    .four-right {
+        text-align: left;
+        width: 100%;   
+    }
+
+    .five-right {
+        text-align:left;
+        width: 100%;   
+    }
     .big {
         font-size: 2.2em;
     }
@@ -170,7 +187,7 @@
     }
 
     .today {
-        width: 100%;
+        width: 97%;
         text-align: center;
         border: 1px solid lightgray;
         background-color: lightgrey;
