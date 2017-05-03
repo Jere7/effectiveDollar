@@ -38,22 +38,23 @@
     .nav-bar {
         padding: 10px 0 10px 0;
         width: 100%;
-        
         background-color: lightgray;
         margin: 0 auto;
         display: inline-block;
+        text-align: center;
     }
 
                 /*icon-position*/
 
     i {
-        padding: 10px;
+        padding: 0px;
         margin: 0px auto;
+        display: inline-block;
     }
 
     #left {
         letter-spacing: .1em;
-        padding-left: 80px;
+        padding-left: 40px;
         float: left;
         width: 40%;
     }
@@ -75,18 +76,22 @@
             /*content-square*/
 
     .content-square {
-        padding: 20px;
+        padding: 20px 0 0 20px;
         margin: 10 auto;
         width: 95%;
         height: 100%;
         display: inline-block;
     }
+                    /*together*/
+                /*divs left-right*/
+        .left-right {
+            margin: 0 auto;
+        }
 
                 /*content-left*/
 
     .content-left {
         text-align: center;
-        float: left;
         width: 45%;
         height: 100%;
         display: inline-block;
