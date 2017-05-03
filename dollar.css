@@ -19,7 +19,7 @@
       padding: 0;
       width: 100%;
       margin: 0 auto;
-      border: 3px solid black;
+      border: 2px solid black;
     }
 
    .layouts {
@@ -31,7 +31,6 @@
         width: 100%;
         margin: 0px auto;
         padding: 0px;    
-
     }
              /*nav-bar*/
 
@@ -69,6 +68,9 @@
             /*nav-bar section-up*/
             /*inputs place*/
     input {
+        
+        width: 10;
+        padding: 10px;
         margin: 0 auto;
            
     }
@@ -104,11 +106,14 @@
         width: 45%;
         height: 100%;
         display: inline-block;
+        margin: 0 auto;
     }
 
     .one-left {
-        width: 90%;
-        padding-bottom: 25%;    
+        width: 70%;
+          
+        margin: 0 auto;
+        border: 1px dashed lightgrey;
     }
 
     .money {
@@ -116,20 +121,23 @@
         margin: 0 auto;
     }
 
-    .green {
+    .green {        
         font-size: 2.2em;
         margin: 0;
         color: green;
     }
 
     .two-left {
-        width: 90%;
+        border: 1px dashed lightgrey;
+        width: 70%;
         padding-bottom: 37%;
+        margin: 0 auto;
     }
 
     .tree-left {
-        width: 90%;        
-        
+        width: 70%;
+        border: 1px dashed lightgrey;       
+        margin: 0 auto;         
     }
 
         /*content-right*/
@@ -142,8 +150,7 @@
         
     }
 
-    .one-right {
-        border-top: 1px dashed lightgray;
+    .one-right {     
         text-align: center;
         width: 100%;   
     }
@@ -174,13 +181,11 @@ h6 {
     }
     
     .input {
-        
-        width: 50%;
+        padding: 10px;
     }
 
     .input1 {    
-        background-color: lightblue;        
-        width: 50%;
+        background-color: lightblue;            
     }
 
     .big {
