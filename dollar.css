@@ -95,20 +95,17 @@
     }
 
     .one-left {
-        width: 80%;
-        border: 1px solid grey;
+        width: 100%;
         padding-bottom: 15%;    
     }
 
     .two-left {
-        width: 80%;
-        border: 1px solid grey;
+        width: 100%;
         padding-bottom: 15%;
         
     }
     .tree-left {
-        width: 80%;
-        border: 1px solid grey;  
+        width: 100%;        
         padding-top: 33px;  
     }
     
