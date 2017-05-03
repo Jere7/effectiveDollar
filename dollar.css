@@ -70,16 +70,9 @@
             /*inputs place*/
     input {
         margin: 0 auto;
-        width: 10;
-        max-width: 50%;        
+           
     }
-    .input {
-
-    }
-
-    .input1 {
-
-    }
+    
                 /*inputs place*/
 
     *, *:before, *:after {
@@ -124,8 +117,9 @@
     }
 
     .green {
-        padding: 0;
+        font-size: 2.2em;
         margin: 0;
+        color: green;
     }
 
     .two-left {
@@ -138,10 +132,6 @@
         
     }
 
-    hr {
-        margin: 10 auto;
-        width: 100%;
-    }
         /*content-right*/
 
     .content-right {
@@ -149,14 +139,21 @@
         float: right;
         width: 45%;
         
+        
     }
 
     .one-right {
+        border-top: 1px dashed lightgray;
         text-align: center;
         width: 100%;   
     }
 
+h6 {
+    border-top: 1px dashed lightgray;
+    border-bottom: 1px dashed lightgray;
+}
     .two-right {
+       
         text-align: left;
         width: 100%;   
     }
@@ -175,6 +172,16 @@
         text-align:left;
         width: 100%;   
     }
+    
+    .input {
+        
+        width: 50%;
+    }
+
+    .input1 {    
+        background-color: lightblue;        
+        width: 50%;
+    }
 
     .big {
         font-size: 2.2em;
@@ -192,7 +199,6 @@
         /*Numbers top-right*/
 
     .min {
-    
         color: gray;
         font-size: .3em;    
     }
