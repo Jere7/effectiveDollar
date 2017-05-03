@@ -72,9 +72,9 @@
         width: 10;
         max-width: 50%;        
     }
-    
+
     *, *:before, *:after {
-         box-sizing: border-box;
+     box-sizing: border-box;
     }
             /*content-square*/
 
@@ -96,6 +96,7 @@
                 /*content-left*/
 
     .content-left {
+        margin-top: 10px; 
         text-align: center;
         width: 45%;
         height: 100%;
