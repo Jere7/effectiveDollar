@@ -67,6 +67,7 @@
     input {
         margin: 0 auto;
         width: 10;
+        max-width: 50%;
     }
 
             /*content-square*/
@@ -75,6 +76,7 @@
         padding: 20px;
         margin: 10px auto;
         width: 90%;
+        height: 100%;
         display: inline-block;
         -webkit-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
         -moz-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
@@ -85,6 +87,8 @@
         text-align: center;
         float: left;
         width: 30%;
+        height: 50%;
+        margin-top: 10px;
         -webkit-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
         -moz-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
         box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
@@ -96,16 +100,19 @@
         width: 80%;
         border: 1px solid grey;
         padding-bottom: 15%;
+        margin-top: 10px;
     }
     .two-left {
         width: 80%;
         border: 1px solid grey;
         padding-bottom: 15%;
+        margin-top: 10px;
     }
     .tree-left {
         width: 80%;
         border: 1px solid grey;
-        padding-bottom: 15%;
+        padding-bottom: 25%;
+        margin-top: 10px;
     }
     
 
@@ -147,6 +154,7 @@
     .content-right {
         padding: 10px;
         float: right;
+        height: 50%;
         width: 60%;
         margin-left: 10px;
         -webkit-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
@@ -159,6 +167,7 @@
         width: 90%;
         border: 1px solid grey;
         padding-bottom: 15%;
+        
     }
 
     h3 {
