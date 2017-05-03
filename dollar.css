@@ -17,6 +17,7 @@
             /*Content-lyouts*/
 
   .content-layouts {
+      padding: 10px;
       width: 100%;
       margin: 0 auto;
       border: 3px solid black;
@@ -36,7 +37,6 @@
         padding: 0;    
         box-sizing: border-box; 
     }
-
              /*nav-bar*/
 
     .nav-bar {
@@ -46,7 +46,6 @@
         color: gray;
         background-color: lightgray;
         margin-bottom: 50px;
-      
     }
 
     i {
@@ -64,36 +63,56 @@
         float: right;
         width: 45%;
     }
-
+            /*nav-bar sectio-ups*/
     input {
         margin: 0 auto;
         width: 10;
-        padding-bottom: 1%;
     }
 
             /*content-square*/
 
     .content-square {
-        margin: 0 auto;
+        padding: 20px;
+        margin: 10px auto;
         width: 90%;
         display: inline-block;
-        padding-left: 70px;
-        
+        -webkit-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
+        -moz-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
+        box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
     }
 
     .content-left {
         text-align: center;
         float: left;
         width: 30%;
+        -webkit-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
+        -moz-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
+        box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
+
+        
     }
 
     .one-left {
-        padding-bottom: 10%;
+        width: 80%;
+        border: 1px solid grey;
+        padding-bottom: 15%;
     }
+    .two-left {
+        width: 80%;
+        border: 1px solid grey;
+        padding-bottom: 15%;
+    }
+    .tree-left {
+        width: 80%;
+        border: 1px solid grey;
+        padding-bottom: 15%;
+    }
+    
 
     h2 {
         text-align: center;
         font-size: 1.2em;
+        margin-bottom: 60px;
     }
 
     span {
@@ -108,38 +127,38 @@
         color: green;
         padding-bottom: 30px;
     }
-
-    .two-left {
-        padding-bottom: 15%;
-    }
             /*input*/
+
     input {
         padding: 7px;
     }
 
     .input {
         float: right;
-        position: relative;
-        right: 220px;
-        bottom: 55px;
-
+        margin-bottom: 30px;
     }
 
     hr {
         margin: 10 auto;
         width: 100%;
     }
-    
         /*content-right*/
 
     .content-right {
+        padding: 10px;
         float: right;
         width: 60%;
         margin-left: 10px;
+        -webkit-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
+        -moz-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
+        box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
     }
 
     .one-right {
-         text-align: center;
+        text-align: center;
+        width: 90%;
+        border: 1px solid grey;
+        padding-bottom: 15%;
     }
 
     h3 {
@@ -154,14 +173,19 @@
     .numbers {
         display: inline;
         padding: 5px;
+        color: lightgrey;
     }
 
     p {
         float: right;
     }
 
+        /*Numbers top-right*/
+
     .min {
+    
         color: gray;
         font-size: .3em;
-        display: inline;    
+        
     }
+        /*Numbers top-right*/
