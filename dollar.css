@@ -65,13 +65,21 @@
         width: 40%;
     }
 
-            /*nav-bar sectio-ups*/
-            
+            /*nav-bar section-up*/
+            /*inputs place*/
     input {
         margin: 0 auto;
         width: 10;
         max-width: 50%;        
     }
+    .input {
+
+    }
+
+    .input1 {
+
+    }
+                /*inputs place*/
 
     *, *:before, *:after {
      box-sizing: border-box;
@@ -91,6 +99,7 @@
             margin: 0 auto;
             padding: 0;
             box-sizing: border-box;
+            display: block;
         }
 
                 /*content-left*/
@@ -104,8 +113,8 @@
     }
 
     .one-left {
-        width: 100%;
-        padding-bottom: 15%;    
+        width: 90%;
+        padding-bottom: 25%;    
     }
 
     .money {
@@ -119,13 +128,13 @@
     }
 
     .two-left {
-        width: 100%;
-        padding-bottom: 15%;
+        width: 90%;
+        padding-bottom: 37%;
     }
 
     .tree-left {
-        width: 100%;        
-        padding-top: 33px;  
+        width: 90%;        
+        
     }
 
     hr {
@@ -137,9 +146,8 @@
     .content-right {
         padding: 10px;
         float: right;
-        height: 50%;
         width: 45%;
-        display: inline-block;
+        
     }
 
     .one-right {
