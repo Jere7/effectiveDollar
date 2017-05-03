@@ -88,31 +88,28 @@
         float: left;
         width: 30%;
         height: 50%;
-        margin-top: 10px;
+        margin-bottom: 10%;
         -webkit-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
         -moz-box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
-        box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);
-
-        
+        box-shadow: 4px 3px 43px 1px rgba(0,0,0,0.36);  
     }
 
     .one-left {
         width: 80%;
         border: 1px solid grey;
-        padding-bottom: 15%;
-        margin-top: 10px;
+        padding-bottom: 15%;    
     }
+
     .two-left {
         width: 80%;
         border: 1px solid grey;
         padding-bottom: 15%;
-        margin-top: 10px;
+        
     }
     .tree-left {
         width: 80%;
-        border: 1px solid grey;
-        padding-bottom: 25%;
-        margin-top: 10px;
+        border: 1px solid grey;  
+        padding-top: 33px;  
     }
     
 
@@ -121,18 +118,16 @@
         font-size: 1.2em;
         margin-bottom: 60px;
     }
-
+    h6 {
+        border: 1px solid lightgray;
+        background-color: lightgrey;
+    }
     span {
         font-size: 1.2em;
     }
 
-    .big {
-        font-size: 2.2em;
-    }
-
     .green {
         color: green;
-        padding-bottom: 30px;
     }
             /*input*/
 
@@ -164,10 +159,13 @@
 
     .one-right {
         text-align: center;
-        width: 90%;
-        border: 1px solid grey;
-        padding-bottom: 15%;
+        width: 100%;
         
+        
+    }
+
+    .big {
+        font-size: 2.2em;
     }
 
     h3 {
@@ -175,8 +173,11 @@
     }
 
     .today {
-        margin: 0 auto;
+        width: 100%;
         text-align: center;
+        border: 1px solid lightgray;
+        background-color: lightgrey;
+    }
     }
 
     .numbers {
