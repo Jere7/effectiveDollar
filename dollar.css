@@ -70,14 +70,17 @@
     input {
         margin: 0 auto;
         width: 10;
-        max-width: 50%;
+        max-width: 50%;        
     }
-
+    
+    *, *:before, *:after {
+         box-sizing: border-box;
+    }
             /*content-square*/
 
     .content-square {
-        padding: 20px 0 0 20px;
-        margin: 10 auto;
+        padding: 10px 0 10px 20px;
+        margin: 0 auto;
         width: 95%;
         height: 100%;
         display: inline-block;
@@ -86,6 +89,8 @@
                 /*divs left-right*/
         .left-right {
             margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
         }
 
                 /*content-left*/
