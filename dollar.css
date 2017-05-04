@@ -119,19 +119,31 @@
         font-size: 25px;
         padding: 0;
         margin: 0 auto;
+        border: 1px dashed lightgrey;
+        background: lightgray;
     }
 
+h6 {
+        padding: 5px;
+        border-top: 1px solid lightgrey;
+        background: lightgray;
+   }
     .green {        
-        font-size: 2.2em;
+        font-size: 2em;
         margin: 0;
         color: green;
+        
     }
 
     .two-left {
-        border: 1px dashed lightgrey;
+        border-top: 1px dashed lightgrey;
         width: 70%;
         padding-bottom: 37%;
         margin: 0 auto;
+    }
+    .credit-cards {
+        border-top: 1px solid lightgrey;
+        background: lightgray;
     }
 
     .tree-left {
@@ -139,6 +151,11 @@
         border: 1px dashed lightgrey;       
         margin: 0 auto; 
         padding-bottom: 5px;        
+    }
+
+    .ways-to-save {
+        border-top: 1px solid lightgrey;
+        background: lightgray;
     }
 
         /*content-right*/
@@ -182,11 +199,16 @@ h6 {
     }
     
     .input {
-        padding: 10px;
+        padding: 20px 5px 0 5px;
+        position: relative;
     }
 
     .input1 {    
-        background-color: lightblue;            
+        background-color: lightblue;      
+        position: relative;
+        bottom: 60px;
+        left: 85%;
+              
     }
 
     .big {
