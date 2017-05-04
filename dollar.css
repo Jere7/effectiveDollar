@@ -82,10 +82,10 @@
             /*content-square*/
 
     .content-square {
-        padding: 10px 0 10px 0px;
+        padding: 70px 0 10px 0px;
         margin: 0 auto;
         width: 100%;
-        height: 90%;
+        height: 100%;
         display: inline-block;
     }
                     /*together*/
@@ -99,14 +99,23 @@
 
                 /*content-left*/
 
-    .content-left {
-        margin-top: 10px; 
+    .content-left {        
         text-align: center;
         width: 45%;
         height: 100%;
         display: inline-block;
         margin: 0 auto;
     }
+
+    .price-less {
+        font-size: 2.0em;
+        margin: 0 auto;
+    }
+    h5 {
+        font-size: 1em;
+        margin: 0 auto;
+    }
+
 
     .one-left {
         width: 70%;  
@@ -115,17 +124,15 @@
     }
 
     .money {
+        width: 100%;
+        height: 110px;
         padding: 0;
         margin: 0 auto;
         border: 1px dashed lightgrey;
         background: lightgray;
     }
 
-h6 {
-        padding: 5px;
-        border-top: 1px solid lightgrey;
-        background: lightgray;
-   }
+
     .green {        
         font-size: 2em;
         margin: 0;
@@ -197,16 +204,11 @@ h6 {
     }
     
     .input {
-        padding: 20px 5px 0 5px;
-        position: relative;
+        padding: -30px;
     }
 
     .input1 {    
         background-color: lightblue;      
-        position: relative;
-        bottom: 60px;
-        left: 85%;
-              
     }
 
     .big {
@@ -217,7 +219,19 @@ h6 {
         width: 97%;
         text-align: center;
     }
-    
+    h2 {
+        font-size: 1em;
+    }
+
+    h5 {
+        font-size: .9em;
+    }
+    h6 {
+        padding: 5px;
+        border-top: 1px solid lightgrey;
+        background: lightgray;
+   }
+
     p {
         float: right;
     }
