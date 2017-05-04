@@ -66,23 +66,14 @@
     }
 
             /*nav-bar section-up*/
-            /*inputs place*/
-    input {
-        display: inline-block;   
-        width: 50%;
-        padding: 10px;
-        margin: 0 auto;       
-    }
-    
-                /*inputs place*/
-
+  
     *, *:before, *:after {
      box-sizing: border-box;
     }
             /*content-square*/
 
     .content-square {
-        padding: 70px 0 10px 0px;
+        padding: 100px 0 10px 0px;
         margin: 0 auto;
         width: 100%;
         height: 100%;
@@ -120,10 +111,12 @@
     .one-left {
         width: 60%;  
         margin: 0 auto;
-        border-top: 1px dashed lightgrey;
+        border: 1px solid lightgrey;
         margin-bottom: 7%;
+        padding-bottom: 25%;
     }
 
+    
     .money {
         width: 100%;
         height: 20%;
@@ -137,28 +130,31 @@
         font-size: 1.5em;        
         color: green;
     }
+    .range {
+        padding-bottom: 5%;
+    }
 
     .two-left {
-        border-top: 1px dashed lightgrey;
+        border: 1px solid lightgrey;
         width: 60%;
-        padding-bottom: 25%;
+        padding-bottom: 15%;
         margin: 0 auto;
     }
 
     .credit-cards {
-        border-top: 1px solid lightgrey;
+        border: 1px solid lightgrey;
         background: lightgray;
     }
 
     .tree-left {
         width: 60%;
-        border-top: 1px dashed lightgrey;       
-        margin: 0 auto; 
-        padding-bottom: 5px;        
+        border: 1px solid lightgrey;       
+        margin: 0 auto;         
+        height: 200px;
     }
 
     .ways-to-save {
-        border-top: 1px solid lightgrey;
+        border: 1px solid lightgrey;
         background: lightgray;
     }
 
@@ -207,34 +203,48 @@ h6 {
         text-align:left;
         width: 100%;   
     }
-    
+
+              /*inputs place*/
+    input {
+        display: inline-block;   
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;       
+    }
+
     .input {
         width: 50%;
         padding: -30px;
-        position: relative; 
-        top: -35px;
-        left: 70%; 
+        float: right;
+        left: 20px;    
     }
 
     .input1 {    
         background-color: lightblue;      
     }
 
+            /*inputs place*/
+
     .big {
         font-size: 2.2em;
     }    
 
     .today {
+        color: grey;
         width: 97%;
         text-align: center;
     }
+
     h2 {
+        color: black;
         font-size: 1em;
     }
 
     h5 {
+        color: lightgrey;
         font-size: .9em;
     }
+    
     h6 {
         padding: 5px;
         border-top: 1px solid lightgrey;
