@@ -98,16 +98,6 @@
         margin: 0 auto;
     }
 
-    .price-less {
-        font-size: 2.0em;
-        margin: 0 auto;
-    }
-    h5 {
-        font-size: 1em;
-        margin: 0 auto;
-    }
-
-
     .one-left {
         width: 60%;  
         margin: 0 auto;
@@ -172,10 +162,6 @@
         width: 100%;   
     }
 
-h6 {
-        border-top: 1px dashed lightgray;
-        border-bottom: 1px dashed lightgray;
-}
     .two-right {
         padding: 0;
         margin: 0;
@@ -214,9 +200,7 @@ h6 {
 
     .input {
         width: 50%;
-        padding: -30px;
-        float: right;
-        left: 20px;    
+        padding: -30px;  
     }
 
     .input1 {    
@@ -226,7 +210,7 @@ h6 {
             /*inputs place*/
 
     .big {
-        font-size: 2.2em;
+        font-size: 2.1em;
     }    
 
     .today {
@@ -234,6 +218,12 @@ h6 {
         width: 97%;
         text-align: center;
     }
+    
+    .price-less {
+        font-size: 2.0em;
+        margin: 0 auto;
+    }
+
 
     h2 {
         color: black;
@@ -243,13 +233,15 @@ h6 {
     h5 {
         color: lightgrey;
         font-size: .9em;
+        margin: 0 auto;
     }
-    
+
     h6 {
         padding: 5px;
         border-top: 1px solid lightgrey;
         background: lightgray;
    }
+   
 
     p {
         float: right;
