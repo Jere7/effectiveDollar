@@ -26,8 +26,17 @@
         color: #3B3B3C;
     }
     div {
+        width: 100%;
         padding: 0;
         margin: 0;
+    }
+
+    span {
+        margin: 0;
+        padding: 1%;
+        width: 10%;
+        height: 10%;
+        
     }
 
    .layouts {
@@ -237,14 +246,14 @@
     }
      
     .input1 {   
-        margin-left: 45%;
+        margin-left: 53%;
         background-color: #34BCB3;
         max-width: 50%;
         min-width: 30%;             
         color: #FAFAFA;
     }
 
-            /*inputs place*/
+            /*inputs place-right*/
 
     .big {
         width: 100%;
@@ -254,16 +263,10 @@
     .today {
         border-top: 1px solid #CBD4D3;        
         color: grey;
-        width: 97%;
+        width: 100%;
         text-align: center;
         background-color: #FAFAFA;  
     }
-    
-    .price-less {
-        padding: 0%;
-        font-size: 2.0em;
-    }
-
 
     h2 {
         color: black;
@@ -297,5 +300,10 @@
         padding: 0px;
         color: #CBD4D3;
         font-size: .3em;    
+    }
+
+    .price-less {
+        padding: 0%;
+        font-size: 2.0em;
     }
         /*Numbers top-right*/
