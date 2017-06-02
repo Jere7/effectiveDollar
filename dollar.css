@@ -5,7 +5,7 @@
         font-style: italic;
         width: 100%;
         height: 500px;
-    
+        color: #FAFAFA;
     }
 
   .container {
@@ -19,7 +19,8 @@
         padding: 0;
         width: 100%;
         margin: 0 auto;
-        border: 2px solid black;
+        border: 2px solid #3B3B3C;
+        color: #3B3B3C;
     }
     div {
         padding: 0;
@@ -41,7 +42,7 @@
     .nav-bar {
         padding: 10px 0 10px 0;
         width: 100%;
-        background-color: lightgray;
+        background-color: #CBD4D3;
         margin: 0 auto;
         display: inline-block;
         text-align: center;
@@ -96,18 +97,16 @@
 
     .content-left {        
         text-align: center;
-        width: 45%;
-        height: 100%;
+        width: 40%;
         display: inline-block;
         margin: 0 auto;
     }
 
     .one-left {
-        border: 1px solid lightgrey;
-        border-top: 1px solid grey;
-        width: 60%;  
+        border: 1px solid #CBD4D3;
+        border-top: 1px solid #CBD4D3;
+        width: 50%;  
         margin: 0 auto;
-        
         margin-bottom: 17%;
         padding-bottom: 10%;
     }
@@ -117,8 +116,8 @@
         width: 100%;
         padding: 0;
         margin: 0 auto;
-        border: 1px dashed lightgrey;
-        background: lightgray;
+        border: 1px dashed #CBD4D3;
+        background: #CBD4D3;
     }
     
     .green {                
@@ -131,74 +130,74 @@
     }
 
     .two-left {
-        border: 1px solid lightgrey;
-        border-top: 1px solid grey;        
-        width: 60%;
+        border: 1px solid #CBD4D3;
+        border-top: 1px solid #CBD4D3;        
+        width: 50%;
         padding-bottom: 5%;
         margin: 0 auto;
         margin-bottom: 20%;
     }
 
     .credit-cards {        
-        border: 1px solid lightgrey;
-        background: lightgray;
+        border: 1px solid #CBD4D3;
+        background: #CBD4D3;
     }
 
     .tree-left {        
-        border: 1px solid lightgrey;
-        border-top: 1px solid grey;
-        width: 60%;
+        border: 1px solid #CBD4D3;
+        border-top: 1px solid #CBD4D3;
+        width: 50%;
         margin: 0 auto;         
         
     }
 
     .ways-to-save {
-        border: 1px solid lightgrey;
-        background: lightgray;
+        border: 1px solid #CBD4D3;
+        background: #CBD4D3;
     }
 
         /*content-right*/
 
     .content-right {        
         float: right;
-        width: 50%;  
-        border-top: 1px dashed lightgrey;
-        padding-right: 60px;
+        width: 60%;  
+        padding-right: 5px;
     }
 
     .one-right {     
+        border-top: 1px solid #CBD4D3;
         text-align: center;
         padding-bottom: 15px;
-        width: 100%;   
+        width: 80%;   
     }
 
     .two-right {        
         padding: 0;
         margin: 0;
         text-align: left;
-        width: 100%;  
-        border-bottom: 1px dashed lightgrey; 
+        width: 80%;  
+        border-bottom: 1px solid #CBD4D3; 
     }
  
      .tree-right {
         padding: 0;
         margin: 0;
         text-align: left;
-        width: 100%;   
+        width: 80%;   
     }
 
     .four-right {
         padding: 0;
         margin: 0;
         text-align: left;
-        width: 100%;   
+        width: 80%;   
     }
 
     .five-right {
         padding: 0;
         margin: 0;
         text-align:left;
-        width: 100%;   
+        width: 80%;   
     }
 
               /*inputs place*/
@@ -211,19 +210,20 @@
     }
 
     .input {
-        width: 40%;
+        width: 60%;
         min-width: 40%;
         float: right;
-        padding-top: 0px;
-        padding: 0px 0px;
+        left: 10px;
+        padding-top: 1%;
+        padding-left: 30%;
     }
      
     .input1 {   
-        width: 50%;
-        background-color: lightskyblue;
+        width: 30%;
+        background-color: #34BCB3;
         max-width: 50%;
         min-width: 30%;             
-        padding: 5%;
+        color: #FAFAFA;
     }
 
             /*inputs place*/
@@ -233,7 +233,7 @@
     }    
 
     .today {
-        border-top: 1px solid grey;        
+        border-top: 1px solid #CBD4D3;        
         color: grey;
         width: 97%;
         text-align: center;
@@ -251,14 +251,14 @@
     }
 
     h5 {
-        color: lightgrey;
-        font-size: .7em;
+        color: #9CA6A5;
+        font-size: .5em;
         margin: 0 auto;
     }
 
     h6 {        
         padding: 15px;
-        background: lightgray;
+        background: #CBD4D3;
    }
    
     p {
@@ -274,7 +274,7 @@
         /*Numbers top-right*/
 
     .min {
-        color: gray;
+        color:#9CA6A5;
         font-size: .3em;    
     }
         /*Numbers top-right*/
