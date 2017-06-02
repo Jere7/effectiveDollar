@@ -223,7 +223,7 @@
 }
               /*inputs place*/
     input {
-        
+        margin: 0 auto;
         width: 50%;
         padding: 10px 0px;   
     }
@@ -254,7 +254,7 @@
         color: grey;
         width: 97%;
         text-align: center;
-        background-color: #FAFAFA;
+        background-color: #FAFAFA;  
     }
     
     .price-less {
@@ -286,14 +286,14 @@
     a {
         color: #CBD4D3;
         letter-spacing: .1em;
-        padding: 0%;
+        
     }
 
         /*Numbers top-right*/
 
     .min {
         padding: 0px;
-        color:##CBD4D3;
+        color: #CBD4D3;
         font-size: .3em;    
     }
         /*Numbers top-right*/
