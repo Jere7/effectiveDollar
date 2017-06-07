@@ -2,7 +2,7 @@
         padding: 0;
         margin: 0 auto;
         font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        width: 90%;
+        width: 95%;
         height: 500px;
         color: #FAFAFA;
     }
@@ -12,7 +12,7 @@
         margin: 0;
     }
   .container {
-        width: 85%; 
+        width: 70%; 
         margin: 0 auto;
    }
 
@@ -20,7 +20,7 @@
 
   .content-layouts {
         padding: 0;
-        width: 85%;
+        width: 100%;
         margin: 0 auto;
         border: 2px solid #FAFAFA;
         color: #3B3B3C;
@@ -107,7 +107,7 @@
 
     .content-left {       
         text-align: center;
-        width: 40%;
+        width: 35%;
         display: inline-block;
         margin: 0 auto;
         padding: 0; 
@@ -174,7 +174,7 @@
 
     .content-right {        
         float: right;
-        width: 60%;  
+        width: 65%;  
         padding-right: 10px;
     }
 
@@ -287,8 +287,7 @@
 
     a {
         color: #CBD4D3;
-        letter-spacing: .1em;
-        
+        letter-spacing: .1em;    
     }
 
         /*Numbers top-right*/
