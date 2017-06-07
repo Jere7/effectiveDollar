@@ -175,7 +175,7 @@
     .content-right {        
         float: right;
         width: 65%;  
-        padding-right: 10px;
+        padding-right: 1%;
     }
 
     .one-right {     
@@ -183,6 +183,7 @@
         text-align: center;
         padding-bottom: 5px;
         width: 100%;   
+        padding-bottom: 1%;
     }
 
     .two-right {        
@@ -191,9 +192,11 @@
         text-align: left;
         width: 100%;  
         border-bottom: 1px solid #CBD4D3; 
+        padding-bottom: 2%;
     }
     .two {
         width: 50%;
+        padding-top: 2%;
     }
  
      .tree-right {
@@ -201,10 +204,12 @@
         margin: 0;
         text-align: left;
         width: 100%;   
+        padding-top: 7%;
     }
     
     .tree {
         width: 50%;
+        padding-bottom: 1%;
     }
 
     .four-right {
@@ -212,10 +217,12 @@
         margin: 0;
         text-align: left;
         width: 100%;   
+        padding-top: 1%;
     }
 
     .four {
         width: 50%;
+        padding-top: 1%;
     }
 
     .five-right {
@@ -223,11 +230,13 @@
         margin: 0;
         text-align:left;
         width: 100%;   
+        padding-top: 3%;
     }
 
 
     .five {
         width: 50%;
+        padding-top: 1%;
 }
               /*inputs place*/
     input {
@@ -237,7 +246,7 @@
     }
 
     .input {
-        width: 40%;
+        width: 30%;
         float: right;
         padding: 1%;
     }
@@ -270,6 +279,11 @@
         font-size: 1em;
     }
 
+    h3 {
+        padding: 0;
+        margin: 0;
+    }
+
     h5 {
         color: #9CA6A5;
         font-size: .5em;
@@ -299,6 +313,7 @@
         font-size: .3em;    
     }
 
+   
     .price-less {
         margin: 0%;
         padding: 0%;
