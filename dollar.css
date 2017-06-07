@@ -2,7 +2,7 @@
         padding: 0;
         margin: 0 auto;
         font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        width: 95%;
+        width: 100%;
         height: 500px;
         color: #FAFAFA;
     }
@@ -101,6 +101,7 @@
         margin: 0 auto;
         padding: 0;
         box-sizing: border-box;
+        width: 100%;
     }
 
                 /*content-left*/
@@ -116,7 +117,7 @@
     .one-left {
         border: 1px solid #CBD4D3;
         border-top: 1px solid #CBD4D3;
-        width: 50%;  
+        width: 80%;  
         margin: 0 auto;
         margin-bottom: 17%;
         padding-bottom: 10%;
@@ -132,9 +133,8 @@
     }
     
     .green {       
-        min-width: 10%;
-        width: 100%;         
-        font-size: 1.5em;        
+        width: 70%;         
+        font-size: 1.3em;        
         color: #34BCB3;
     }
     
@@ -146,7 +146,7 @@
     .two-left {
         border: 1px solid #CBD4D3;
         border-top: 1px solid #CBD4D3;        
-        width: 50%;
+        width: 80%;
         padding-bottom: 5%;
         margin: 0 auto;
         margin-bottom: 20%;
@@ -160,7 +160,7 @@
     .tree-left {        
         border: 1px solid #CBD4D3;
         border-top: 1px solid #CBD4D3;
-        width: 50%;
+        width: 80%;
         margin: 0 auto;         
         
     }
@@ -168,6 +168,12 @@
     .ways-to-save {
         border: 1px solid #CBD4D3;
         background-color: #FAFAFA;
+    }
+
+    .price-green {
+        margin: 0%;
+        padding: 0%;
+        font-size: 1.8em;
     }
 
         /*content-right*/
@@ -317,7 +323,12 @@
     .price-less {
         margin: 0%;
         padding: 0%;
-        font-size: 2.0em;
+        font-size: 1.8em;
 
+    }
+    .mumbers {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
     }
         /*Numbers top-right*/
