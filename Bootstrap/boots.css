@@ -25,18 +25,6 @@
         width: 10%;
         height: 10%;    
     }
-/*
-   .layouts {
-        width: 90%;
-        margin: 0 auto;  
-    }
-
-    .image {
-        width: 100%;
-        margin: 0px auto;
-        padding: 0px;    
-    }*/
-             /*nav-bar*/
 
     .nav-bar {
         padding: 10px 0 10px 0;
@@ -76,21 +64,7 @@
     }
             /*content-square*/
 
-    .content-square {
-        padding: 80px 10px;
-        margin: 0 auto;
-        width: 100%;
-        display: inline-block;
-    }
-                    /*together*/
-                /*divs left-right*/
-    .left-right {
-        margin: 0 auto;
-        padding: 0;
-        box-sizing: border-box;
-        width: 100%;
-    }
-
+   
                 /*content-left*/
 
     .content-left {       
