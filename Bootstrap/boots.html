@@ -13,29 +13,21 @@
     </head>
    <body>
 
-  <div class="container">
-    <div class="container">
-        <div class="">      
-            <div class="container-fluid">      
-          
-            <div class="container-fluid">
-              <a  id="left">Wednesday Octuber 1 |&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></a>  
-              <a  id="right"><i class="fa fa-search" aria-hidden="true">Search for any biller,credit card or bank to add.</i></a>
+  <div class="container-fluid col-md-8"
+            <div class="row nav-bar">
+              <a id="left">Wednesday Octuber 1 |&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i></a>  
+              <a id="right"><i class="fa fa-search" aria-hidden="true">Search for any biller,credit card or bank to add.</i></a>
             </div>
 
               <!--content square-->
 
-      <div class="container fluid">
-        <div class="row">
-        <!--left-content-->
-
-      <div class="col-md-4">
+      <div class="container-fluid content-left">
 
         <!--div contents-left-->
 
-          <div class="container-fluid">
+          <div class="container-fluid one-left">
             
-             <div class="container-fluid">
+             <div class="money">
                
                 <h2 class="size">MONEY</h2>
                           
@@ -43,7 +35,7 @@
              
              </div>
 
-             <div class="container-fluid">
+             <div class="container-fluid range">
               <input  type="range" min="0" max="1000" value="100"/><br>
               <input  type="range" min="0" max="1000" value="300"/><br>
               <input  type="range" min="0" max="1000" value="500"/><br>
@@ -52,10 +44,10 @@
               </div>
             </div>       
 
-            <div class="container-fluid">
-              <div class="container-fluid">
+            <div class="container-fluid  two-left">
+              <div class="credit-cards">
                  <h2>CREDIT CARDS</h2>                    
-                 <span class="">-$245</span>
+                 <span class="price-green">-$245</span>
               </div>    
                  <br>      
                   <input id="test" type="range" min="0" max="1000" value="245"/>
@@ -66,7 +58,7 @@
              </div>  
                    <!--div two-to-tree left-->
 
-           <div class="container-fluid">
+           <div class="container-fluid  tree-left">
              <div class="ways-to-save">
               <h2>WAYS TO SAVE</h2>
              </div>
@@ -76,11 +68,11 @@
             <!end div content-left-->
 
             <!--right panel-->
-      <div class="col-md-8">
+      <div class="content-right">
 
             <!--div contents-left-->
               
-            <div class="container-fluid">
+            <div class="container-fluid  one-right">
               <h2>BILLS DUE THIS WEEK</h2>
               <span class="big">$457</span>
               <h5>3 BILLS</h5>
@@ -88,7 +80,7 @@
               <h6 class="today">DUE TODAY</h6>
             </div>
 
-            <div class="container-fluid">              
+            <div class="container-fluid  two-right">              
               <div class="input">
               <input class="input1" type="button" onclick="alert('Hello World!')" value="PAY!">
               </div>
@@ -98,7 +90,7 @@
               </div>              
             </div>
               
-            <div class="container-fluid">              
+            <div class="container-fluid  tree-right">              
               <div class="input">
               <input class="input1" type="button" onclick="alert('Hello World!')" value="PAY!">
               </div>
@@ -109,7 +101,7 @@
               <h6 class="today">DUE IN 2 DAYS</h6>            
             </div>
 
-            <div class="container-fluid">              
+            <div class="container-fluid  four-right">              
               <div class="input">
               <input class="input1" type="button" onclick="alert('Hello World!')" value="PAY!">
               </div>
@@ -121,7 +113,7 @@
               <h6 class="today">DUE IN 5 DAYS</h6>
             </div>
 
-            <div class="container-fluid">              
+            <div class="container-fluid  five-right">              
               <div class="input">
               <input class="input1" type="button" onclick="alert('Hello World!')" value="PAY!">
               </div>
@@ -143,6 +135,7 @@
 <!--end div-layouts-->
 </div>
 <!--end div-container-->
+
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
