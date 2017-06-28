@@ -76,7 +76,6 @@
     }
 
     .one-left {
-        border: 1px solid #CBD4D3;
         border-top: 1px solid #CBD4D3;
         width: 80%;  
         margin: 0 auto;
@@ -105,7 +104,6 @@
     }
 
     .two-left {
-        border: 1px solid #CBD4D3;
         border-top: 1px solid #CBD4D3;        
         width: 80%;
         padding-bottom: 5%;
@@ -119,7 +117,7 @@
     }
 
     .tree-left {        
-        border: 1px solid #CBD4D3;
+        
         border-top: 1px solid #CBD4D3;
         width: 80%;
         margin: 0 auto;         
