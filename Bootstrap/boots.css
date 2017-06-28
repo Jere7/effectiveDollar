@@ -2,7 +2,7 @@
         padding: 0;
         margin: 0 auto;
         font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        width: 100%;
+        width: 90%;
         height: 500px;
         color: #FAFAFA;
     }
@@ -25,7 +25,7 @@
         width: 10%;
         height: 10%;    
     }
-
+    
     .nav-bar {
         padding: 10px 0 10px 0;
         width: 100%;
